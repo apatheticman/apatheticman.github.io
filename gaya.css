@@ -1,6 +1,7 @@
 .tombolye {
 	background-color: #FC03F0;
 	border: none;
+	border-radius: 4px;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -14,6 +15,7 @@
 .tombolga {
 	background-color: #D10000;
 	border: none;
+	border-radius: 4px;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -26,4 +28,24 @@
 
 .bacot {
 	color: white;
+	font-family: 'Inconsolata', monospace;
+}
+
+@media screen and (min-width: 450px) {
+   .tombolye, .tombolga {
+          margin-left: auto;
+          margin-right: auto;
+   }
+}
+@media screen and (min-width: 550px) {
+   .tombolye, .tombolga {
+          margin-left: auto;
+          margin-right: auto;
+   }
+}
+@media screen and (min-width: 850px) {
+   .tombolye, .tombolga {
+          margin-left: auto;
+          margin-right: auto;
+   }
 }
