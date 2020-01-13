@@ -1,3 +1,5 @@
+alert("Ini Adam buat dari sebagian pembelajaran tentang pemrograman yang udah Adam pelajarin");
+
 TypingText = function(element, interval, cursor, finishedCallback) {
   if((typeof document.getElementById == "undefined") || (typeof element.innerHTML == "undefined")) {
     this.running = true;    // Never run.
